@@ -5,11 +5,23 @@
         "es2021": true
     },
     "extends": [
-        "google"
+        "airbnb-base"
     ],
     "parserOptions": {
         "ecmaVersion": "latest"
     },
     "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "eol-last": [
+            "error",
+            "never"
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
     }
 }
